@@ -12,6 +12,7 @@
     <sprite>sprites\spr_player_right</sprite>
     <sprite>sprites\spr_player_left</sprite>
     <sprite>sprites\spr_player_shadow</sprite>
+    <sprite>sprites\spr_enemy_slime</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -25,10 +26,12 @@
     <script>scripts\scr_dash_state.gml</script>
   </scripts>
   <objects name="objects">
+    <object>objects\obj_lifeform_parent</object>
     <object>objects\obj_player</object>
-    <object>objects\obj_wall</object>
     <object>objects\obj_view</object>
     <object>objects\obj_dash_effect</object>
+    <object>objects\obj_enemy_slime</object>
+    <object>objects\obj_wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_one</room>
